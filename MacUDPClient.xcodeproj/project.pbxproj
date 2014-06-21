@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3BE64321955F2520045CBAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BE64311955F2520045CBAD /* Cocoa.framework */; };
+		C3BE643C1955F2520045CBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3BE643A1955F2520045CBAD /* InfoPlist.strings */; };
+		C3BE643E1955F2520045CBAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BE643D1955F2520045CBAD /* main.m */; };
+		C3BE64421955F2520045CBAD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C3BE64401955F2520045CBAD /* Credits.rtf */; };
+		C3BE64451955F2520045CBAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BE64441955F2520045CBAD /* AppDelegate.m */; };
+		C3BE64481955F2520045CBAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BE64461955F2520045CBAD /* MainMenu.xib */; };
+		C3BE644A1955F2520045CBAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BE64491955F2520045CBAD /* Images.xcassets */; };
+		C3BE64511955F2520045CBAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BE64501955F2520045CBAD /* XCTest.framework */; };
+		C3BE64521955F2520045CBAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BE64311955F2520045CBAD /* Cocoa.framework */; };
+		C3BE645A1955F2520045CBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3BE64581955F2520045CBAD /* InfoPlist.strings */; };
+		C3BE645C1955F2520045CBAD /* MacUDPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BE645B1955F2520045CBAD /* MacUDPClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3BE64531955F2520045CBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3BE64261955F2520045CBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3BE642D1955F2520045CBAD;
+			remoteInfo = MacUDPClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3BE642E1955F2520045CBAD /* MacUDPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacUDPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BE64311955F2520045CBAD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C3BE64341955F2520045CBAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C3BE64351955F2520045CBAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3BE64361955F2520045CBAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3BE64391955F2520045CBAD /* MacUDPClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacUDPClient-Info.plist"; sourceTree = "<group>"; };
+		C3BE643B1955F2520045CBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3BE643D1955F2520045CBAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3BE643F1955F2520045CBAD /* MacUDPClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacUDPClient-Prefix.pch"; sourceTree = "<group>"; };
+		C3BE64411955F2520045CBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C3BE64431955F2520045CBAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3BE64441955F2520045CBAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3BE64471955F2520045CBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3BE64491955F2520045CBAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3BE644F1955F2520045CBAD /* MacUDPClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacUDPClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BE64501955F2520045CBAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3BE64571955F2520045CBAD /* MacUDPClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacUDPClientTests-Info.plist"; sourceTree = "<group>"; };
+		C3BE64591955F2520045CBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3BE645B1955F2520045CBAD /* MacUDPClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacUDPClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3BE642B1955F2520045CBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BE64321955F2520045CBAD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BE644C1955F2520045CBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BE64521955F2520045CBAD /* Cocoa.framework in Frameworks */,
+				C3BE64511955F2520045CBAD /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3BE64251955F2520045CBAD = {
+			isa = PBXGroup;
+			children = (
+				C3BE64371955F2520045CBAD /* MacUDPClient */,
+				C3BE64551955F2520045CBAD /* MacUDPClientTests */,
+				C3BE64301955F2520045CBAD /* Frameworks */,
+				C3BE642F1955F2520045CBAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3BE642F1955F2520045CBAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE642E1955F2520045CBAD /* MacUDPClient.app */,
+				C3BE644F1955F2520045CBAD /* MacUDPClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3BE64301955F2520045CBAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE64311955F2520045CBAD /* Cocoa.framework */,
+				C3BE64501955F2520045CBAD /* XCTest.framework */,
+				C3BE64331955F2520045CBAD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3BE64331955F2520045CBAD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE64341955F2520045CBAD /* AppKit.framework */,
+				C3BE64351955F2520045CBAD /* CoreData.framework */,
+				C3BE64361955F2520045CBAD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C3BE64371955F2520045CBAD /* MacUDPClient */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE64431955F2520045CBAD /* AppDelegate.h */,
+				C3BE64441955F2520045CBAD /* AppDelegate.m */,
+				C3BE64461955F2520045CBAD /* MainMenu.xib */,
+				C3BE64491955F2520045CBAD /* Images.xcassets */,
+				C3BE64381955F2520045CBAD /* Supporting Files */,
+			);
+			path = MacUDPClient;
+			sourceTree = "<group>";
+		};
+		C3BE64381955F2520045CBAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE64391955F2520045CBAD /* MacUDPClient-Info.plist */,
+				C3BE643A1955F2520045CBAD /* InfoPlist.strings */,
+				C3BE643D1955F2520045CBAD /* main.m */,
+				C3BE643F1955F2520045CBAD /* MacUDPClient-Prefix.pch */,
+				C3BE64401955F2520045CBAD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3BE64551955F2520045CBAD /* MacUDPClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE645B1955F2520045CBAD /* MacUDPClientTests.m */,
+				C3BE64561955F2520045CBAD /* Supporting Files */,
+			);
+			path = MacUDPClientTests;
+			sourceTree = "<group>";
+		};
+		C3BE64561955F2520045CBAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3BE64571955F2520045CBAD /* MacUDPClientTests-Info.plist */,
+				C3BE64581955F2520045CBAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3BE642D1955F2520045CBAD /* MacUDPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3BE645F1955F2520045CBAD /* Build configuration list for PBXNativeTarget "MacUDPClient" */;
+			buildPhases = (
+				C3BE642A1955F2520045CBAD /* Sources */,
+				C3BE642B1955F2520045CBAD /* Frameworks */,
+				C3BE642C1955F2520045CBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacUDPClient;
+			productName = MacUDPClient;
+			productReference = C3BE642E1955F2520045CBAD /* MacUDPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3BE644E1955F2520045CBAD /* MacUDPClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3BE64621955F2520045CBAD /* Build configuration list for PBXNativeTarget "MacUDPClientTests" */;
+			buildPhases = (
+				C3BE644B1955F2520045CBAD /* Sources */,
+				C3BE644C1955F2520045CBAD /* Frameworks */,
+				C3BE644D1955F2520045CBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3BE64541955F2520045CBAD /* PBXTargetDependency */,
+			);
+			name = MacUDPClientTests;
+			productName = MacUDPClientTests;
+			productReference = C3BE644F1955F2520045CBAD /* MacUDPClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3BE64261955F2520045CBAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Akihiro Okubo";
+				TargetAttributes = {
+					C3BE644E1955F2520045CBAD = {
+						TestTargetID = C3BE642D1955F2520045CBAD;
+					};
+				};
+			};
+			buildConfigurationList = C3BE64291955F2520045CBAD /* Build configuration list for PBXProject "MacUDPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3BE64251955F2520045CBAD;
+			productRefGroup = C3BE642F1955F2520045CBAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3BE642D1955F2520045CBAD /* MacUDPClient */,
+				C3BE644E1955F2520045CBAD /* MacUDPClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3BE642C1955F2520045CBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BE643C1955F2520045CBAD /* InfoPlist.strings in Resources */,
+				C3BE644A1955F2520045CBAD /* Images.xcassets in Resources */,
+				C3BE64421955F2520045CBAD /* Credits.rtf in Resources */,
+				C3BE64481955F2520045CBAD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BE644D1955F2520045CBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BE645A1955F2520045CBAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3BE642A1955F2520045CBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BE64451955F2520045CBAD /* AppDelegate.m in Sources */,
+				C3BE643E1955F2520045CBAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BE644B1955F2520045CBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BE645C1955F2520045CBAD /* MacUDPClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3BE64541955F2520045CBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3BE642D1955F2520045CBAD /* MacUDPClient */;
+			targetProxy = C3BE64531955F2520045CBAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3BE643A1955F2520045CBAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BE643B1955F2520045CBAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3BE64401955F2520045CBAD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BE64411955F2520045CBAD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C3BE64461955F2520045CBAD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BE64471955F2520045CBAD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C3BE64581955F2520045CBAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3BE64591955F2520045CBAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3BE645D1955F2520045CBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3BE645E1955F2520045CBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C3BE64601955F2520045CBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacUDPClient/MacUDPClient-Prefix.pch";
+				INFOPLIST_FILE = "MacUDPClient/MacUDPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3BE64611955F2520045CBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacUDPClient/MacUDPClient-Prefix.pch";
+				INFOPLIST_FILE = "MacUDPClient/MacUDPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3BE64631955F2520045CBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacUDPClient.app/Contents/MacOS/MacUDPClient";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacUDPClient/MacUDPClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MacUDPClientTests/MacUDPClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3BE64641955F2520045CBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacUDPClient.app/Contents/MacOS/MacUDPClient";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacUDPClient/MacUDPClient-Prefix.pch";
+				INFOPLIST_FILE = "MacUDPClientTests/MacUDPClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3BE64291955F2520045CBAD /* Build configuration list for PBXProject "MacUDPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BE645D1955F2520045CBAD /* Debug */,
+				C3BE645E1955F2520045CBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3BE645F1955F2520045CBAD /* Build configuration list for PBXNativeTarget "MacUDPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BE64601955F2520045CBAD /* Debug */,
+				C3BE64611955F2520045CBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3BE64621955F2520045CBAD /* Build configuration list for PBXNativeTarget "MacUDPClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3BE64631955F2520045CBAD /* Debug */,
+				C3BE64641955F2520045CBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3BE64261955F2520045CBAD /* Project object */;
+}
